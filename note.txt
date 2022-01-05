@@ -1,0 +1,16 @@
+.htaccess : dùng để điều hướng toàn bộ request về file index.php
+index.php : gọi tới bootstrap.php
+bootstrap.php : gọi tới app/App.php
+app/App.php : xử lý với models,views,controllers
+
+
+valiadte
+1.Set rules
+-fieldname
+-Rules
+2.THông báo
+-fieldname
+-errors
+3.Run validate()
+-true
+-false
